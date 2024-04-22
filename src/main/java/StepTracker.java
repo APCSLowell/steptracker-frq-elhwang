@@ -22,6 +22,6 @@ public  int activeDays(){
 totalsteps += n;
  }
  public double averageSteps{
-  return total/Steps.size();
+  return totalsteps/Steps.size();
  }
 } 
