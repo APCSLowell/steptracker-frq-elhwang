@@ -8,7 +8,7 @@ public  int activeDays(){
  private int count = 0;
  if(Steps.size() < 1)
   return 0;
- for(int i = 0; i < Steps.size(): i++){
+ for(int i = 0; i < Steps.size(); i++){
    if(Steps.get(i) >= 10000)
     count++;
  }
