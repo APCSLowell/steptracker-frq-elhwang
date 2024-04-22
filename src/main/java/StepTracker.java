@@ -1,15 +1,17 @@
 import java.util.ArrayList;
 public class StepTracker
 {
+ private minsteps = 0;
  private ArrayList <int> Steps = new Arraylist <int>();
  public void StepTracker(int n){
+  minsteps = n;
  }
 public  int activeDays(){
  private int count = 0;
  if(Steps.size() < 1)
   return 0;
  for(int i = 0; i < Steps.size(); i++){
-   if(Steps.get(i) >= 10000)
+   if(Steps.get(i) >= minsteps)
     count++;
  }
   return count;
