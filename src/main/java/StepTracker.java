@@ -20,7 +20,7 @@ public  int activeDays(){
   totalsteps += n;
  totaldays++;
  }
- public double averageSteps{
+ public double averageSteps(){
   if(totaldays == 0)
    return 0.0;
   return (double)totalsteps/totaldays;
