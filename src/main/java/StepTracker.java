@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- private minsteps;
- private totaldays;
- private totalsteps;
- private active;
+ private int minsteps;
+ private int totaldays;
+ private int totalsteps;
+ private int active;
 public StepTracker(int n){
   minsteps = n;
   totaldays = 0;
