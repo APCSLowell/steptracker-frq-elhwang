@@ -5,7 +5,7 @@ public class StepTracker
  private totaldays;
  private totalsteps;
  private active;
-public void StepTracker(int n){
+public StepTracker(int n){
   minsteps = n;
   totaldays = 0;
   totalsteps = 0;
